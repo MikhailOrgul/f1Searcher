@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Справочник Ф1
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="dt"> 
+            <div class="buttonsListSelect">
+                <button id="driversButton" src="script.js" onclick="summaryDrivers()">
+                    Список чемпионов
+                </button> 
+                <button id="teamsButton" src="script.js" onclick="summaryTeams()">
+                    Список конструкторов   
+                </button>
+            </div> 
+            <table class="chamDriversTable" border="1" id="mainTable">
+                <thead id="driversTableId">
+                </thead>
+                <tbody id="driversTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="searchData">
+            <img class="f1Logo"src="logof1.png" alt="404">
+            <section class="sectionForSearch" id="sectionForDriverSearch">
+                <label for="inputFieldDriverSearch">
+                    Введите данные для поиска пилота
+                </label>
+                <input class="inputFieldSearch" id="inputFieldDriverSearch">
+                <button id="driverSeachButton" onclick="searchDriver()">
+                    Поиск
+                </button>
+            </section>
+            <section class="sectionForSearch" id="sectionForTeamsSearch">
+                <label for="inputFieldTeamSearch">
+                    Введите данные для поиска команды
+                </label>
+                <input class="inputFieldSearch" id="inputFieldTeamSearch">
+                <button id="teamSeachButton" onclick="searchTeams()">
+                    Поиск
+                </button>
+            </section>
+            <div class="forReturnButtonSearch">
+                <button class="returnFromFilter" id="returnButton">
+                    Назад
+                </button>  
+            </div>
+        </div>  
+    </body>
+</html>

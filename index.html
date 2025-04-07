@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Справочник Ф1
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="dt"> 
+            <div class="buttonsListSelect">
+                <button id="driversButton" onclick="summaryDrivers()">
+                    Список чемпионов
+                </button> 
+                <button id="teamsButton" onclick="summaryTeams()">
+                    Список конструкторов   
+                </button>
+            </div> 
+            <table class="chamDriversTable" border="1" id="mainTable">
+                <thead id="driversTableId">
+                </thead>
+                <tbody id="driversTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="buttonsOtherFuncAndLogo">
+            <img class="f1Logo"src="logof1.png" alt="404">
+            <div class="buttonsFunc">
+                <label class="developer">
+                    Разработал
+                    студент 3 курса
+                    по направлению
+                    "прикладная информатика"
+                    Фарносов Михаил
+                </label>
+                <button class="search" id="searchButton">
+                    Поиск
+                </button>
+                <button class="filter" id="openFilterButton">
+                    Фильтр
+                </button>
+            </div>
+        </div>
+    </body>
+    </html>

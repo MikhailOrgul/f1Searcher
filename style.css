@@ -1,0 +1,215 @@
+body 
+{
+    background-color: #eee2dc;
+}
+button:hover
+{
+    background-color: #eee2dc;
+    border-color: #edc7b7;
+}
+.dt
+{
+    background-color: #edc7b7;
+    position: relative;
+    float: right;
+    width: max-content;
+    overflow-y: scroll;
+    height: 98vh;
+    width: 50%;
+}
+.chamDriversTable
+{
+    width: -webkit-fill-available;
+    text-align: center;
+    border: 1px solid #eee2dc;
+    border-collapse: collapse;
+}
+
+.buttonsListSelect
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #eee2dc;
+}
+#teamsButton
+{
+    position: relative;
+    float: right;
+    width: -webkit-fill-available;
+    background-color: #bab2b5;
+    border-radius: 20vh 20vh 0% 0%;
+    border: outset rgb(172, 59, 97);
+}
+#driversButton
+{
+    width: -webkit-fill-available;
+    background-color: #bab2b5;
+    border-radius: 20vh 20vh 0% 0%;
+    border: outset rgb(172, 59, 97);
+}
+#driversTableId
+{
+    color: #FFFFFF;
+}
+#driversTableBody
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5DC;
+}
+.buttonsOtherFuncAndLogo
+{
+    position: absolute;
+    float: left;
+    width: 48%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f1Logo
+{
+    width: -webkit-fill-available;
+    height: 48vh;
+}
+.buttonsFunc
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 48vh;
+}
+.search, .filter
+{
+    width: 40vh;
+    height: 10vh;
+    text-align: center;
+    border: outset #B89A7E;
+}
+.developer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allFilterContainer
+{
+    position: absolute;
+    float: left;
+    width: 48%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filterContentInputDrivers
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    visibility: hidden;
+    height: 50vh;
+    bottom: 0;
+}
+.filterContentInputTeams
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    visibility: visible;
+    height: 50vh;
+    bottom: 0;
+}
+#teamSeacrh
+{
+    position: absolute;
+    visibility: hidden;
+}
+.inputFieldFilter
+{
+    width: -webkit-fill-available;
+}
+
+.searchData
+{
+    position: absolute;
+    float: left;
+    width: 48%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputAreaFilter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputAreaFilter
+{
+    background-color: #D4BFAA;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #D4BFAA, #eee2dc);
+}
+.inputFieldFilter, .inputFieldSearch
+{
+    width: 30vh;
+    border-radius: 1vh 2vh 1vh 2vh;
+    border: outset #B89A7E;
+}
+.buttonFilter
+{
+    width: 30vh;
+    border: outset #B89A7E;
+}
+.divForButtonsFilter
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sectionForSearch
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D4BFAA;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #D4BFAA, #eee2dc);
+    height: 15vh;
+}
+#driverSeachButton, #teamSeachButton
+{
+    width: 20vh;
+    border: outset #B89A7E;
+} 
+.returnFromFilter
+{
+    width: 30vh;
+    border: outset #B89A7E;
+}
+.forReturnButtonSearch
+{
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

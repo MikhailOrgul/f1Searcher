@@ -1,0 +1,527 @@
+[
+    {
+        "number": 1,
+        "name": "Max Verstappen",
+        "wins": 8,
+        "team": "Red Bull Racing",
+        "year": 2024
+    },
+    {
+        "number": 2,
+        "name": "Max Verstappen",
+        "wins": 19,
+        "team": "Red Bull Racing",
+        "year": 2023
+    },
+    {
+        "number": 3,
+        "name": "Max Verstappen",
+        "wins": 15,
+        "team": "Red Bull Racing-RBPT",
+        "year": 2022
+    },
+    {
+        "number": 4,
+        "name": "Max Verstappen",
+        "wins": 10,
+        "team": "Red Bull Racing-Honda",
+        "year": 2021
+    },
+    {
+        "number": 5,
+        "name": "Lewis Hamilton",
+        "wins": 11,
+        "team": "Mercedes",
+        "year": 2020
+    },
+    {
+        "number": 6,
+        "name": "Lewis Hamilton",
+        "wins": 11,
+        "team": "Mercedes",
+        "year": 2019
+    },
+    {
+        "number": 7,
+        "name": "Lewis Hamilton",
+        "wins": 11,
+        "team": "Mercedes",
+        "year": 2018
+    },
+    {
+        "number": 8,
+        "name": "Lewis Hamilton",
+        "wins": 9,
+        "team": "Mercedes",
+        "year": 2017
+    },
+    {
+        "number": 9,
+        "name": "Nico Rosberg",
+        "wins": 9,
+        "team": "Mercedes",
+        "year": 2016
+    },
+    {
+        "number": 10,
+        "name": "Lewis Hamilton",
+        "wins": 10,
+        "team": "Mercedes",
+        "year": 2015
+    },
+    {
+        "number": 11,
+        "name": "Lewis Hamilton",
+        "wins": 11,
+        "team": "Mercedes",
+        "year": 2014
+    },
+    {
+        "number": 12,
+        "name": "Sebastian Vettel",
+        "wins": 13,
+        "team": "Red Bull-Renault",
+        "year": 2013
+    },
+    {
+        "number": 13,
+        "name": "Sebastian Vettel",
+        "wins": 5,
+        "team": "Red Bull-Renault",
+        "year": 2012
+    },
+    {
+        "number": 14,
+        "name": "Sebastian Vettel",
+        "wins": 11,
+        "team": "Red Bull-Renault",
+        "year": 2011
+    },
+    {
+        "number": 15,
+        "name": "Sebastian Vettel",
+        "wins": 5,
+        "team": "Red Bull-Renault",
+        "year": 2010
+    },
+    {
+        "number": 16,
+        "name": "Jenson Button",
+        "wins": 6,
+        "team": "Brawn-Mercedes",
+        "year": 2009
+    },
+    {
+        "number": 17,
+        "name": "Lewis Hamilton",
+        "wins": 5,
+        "team": "McLaren-Mercedes",
+        "year": 2008
+    },
+    {
+        "number": 18,
+        "name": "Kimi Räikkönen",
+        "wins": 6,
+        "team": "Ferrari",
+        "year": 2007
+    },
+    {
+        "number": 19,
+        "name": "Fernando Alonso",
+        "wins": 7,
+        "team": "Renault",
+        "year": 2006
+    },
+    {
+        "number": 20,
+        "name": "Fernando Alonso",
+        "wins": 7,
+        "team": "Renault",
+        "year": 2005
+    },
+    {
+        "number": 21,
+        "name": "Michael Schumacher",
+        "wins": 13,
+        "team": "Ferrari",
+        "year": 2004
+    },
+    {
+        "number": 22,
+        "name": "Michael Schumacher",
+        "wins": 6,
+        "team": "Ferrari",
+        "year": 2003
+    },
+    {
+        "number": 23,
+        "name": "Michael Schumacher",
+        "wins": 11,
+        "team": "Ferrari",
+        "year": 2002
+    },
+    {
+        "number": 24,
+        "name": "Michael Schumacher",
+        "wins": 9,
+        "team": "Ferrari",
+        "year": 2001
+    },
+    {
+        "number": 25,
+        "name": "Michael Schumacher",
+        "wins": 9,
+        "team": "Ferrari",
+        "year": 2000
+    },
+    {
+        "number": 26,
+        "name": "Mika Häkkinen",
+        "wins": 5,
+        "team": "McLaren-Mercedes",
+        "year": 1999
+    },
+    {
+        "number": 27,
+        "name": "Mika Häkkinen",
+        "wins": 8,
+        "team": "McLaren-Mercedes",
+        "year": 1998
+    },
+    {
+        "number": 28,
+        "name": "Jacques Villeneuve",
+        "wins": 7,
+        "team": "Williams-Renault",
+        "year": 1997
+    },
+    {
+        "number": 29,
+        "name": "Damon Hill",
+        "wins": 8,
+        "team": "Williams-Renault",
+        "year": 1996
+    },
+    {
+        "number": 30,
+        "name": "Michael Schumacher",
+        "wins": 9,
+        "team": "Benetton-Renault",
+        "year": 1995
+    },
+    {
+        "number": 31,
+        "name": "Michael Schumacher",
+        "wins": 8,
+        "team": "Benetton-Ford",
+        "year": 1994
+    },
+    {
+        "number": 32,
+        "name": "Alain Prost",
+        "wins": 7,
+        "team": "Williams-Renault",
+        "year": 1993
+    },
+    {
+        "number": 33,
+        "name": "Nigel Mansell",
+        "wins": 9,
+        "team": "Williams-Renault",
+        "year": 1992
+    },
+    {
+        "number": 34,
+        "name": "Ayrton Senna",
+        "wins": 7,
+        "team": "McLaren-Honda",
+        "year": 1991
+    },
+    {
+        "number": 35,
+        "name": "Ayrton Senna",
+        "wins": 6,
+        "team": "McLaren-Honda",
+        "year": 1990
+    },
+    {
+        "number": 36,
+        "name": "Alain Prost",
+        "wins": 4,
+        "team": "McLaren-Honda",
+        "year": 1989
+    },
+    {
+        "number": 37,
+        "name": "Ayrton Senna",
+        "wins": 8,
+        "team": "McLaren-Honda",
+        "year": 1988
+    },
+    {
+        "number": 38,
+        "name": "Nelson Piquet",
+        "wins": 3,
+        "team": "Williams-Honda",
+        "year": 1987
+    },
+    {
+        "number": 39,
+        "name": "Alain Prost",
+        "wins": 4,
+        "team": "McLaren-TAG",
+        "year": 1986
+    },
+    {
+        "number": 40,
+        "name": "Alain Prost",
+        "wins": 5,
+        "team": "McLaren-TAG",
+        "year": 1985
+    },
+    {
+        "number": 41,
+        "name": "Niki Lauda",
+        "wins": 5,
+        "team": "McLaren-TAG",
+        "year": 1984
+    },
+    {
+        "number": 42,
+        "name": "Nelson Piquet",
+        "wins": 3,
+        "team": "Brabham-BMW",
+        "year": 1983
+    },
+    {
+        "number": 43,
+        "name": "Keke Rosberg",
+        "wins": 1,
+        "team": "Williams-Ford",
+        "year": 1982
+    },
+    {
+        "number": 44,
+        "name": "Nelson Piquet",
+        "wins": 3,
+        "team": "Brabham-Ford",
+        "year": 1981
+    },
+    {
+        "number": 45,
+        "name": "Alan Jones",
+        "wins": 5,
+        "team": "Williams-Ford",
+        "year": 1980
+    },
+    {
+        "number": 46,
+        "name": "Jody Scheckter",
+        "wins": 3,
+        "team": "Ferrari",
+        "year": 1979
+    },
+    {
+        "number": 47,
+        "name": "Mario Andretti",
+        "wins": 6,
+        "team": "Lotus-Ford",
+        "year": 1978
+    },
+    {
+        "number": 48,
+        "name": "Niki Lauda",
+        "wins": 3,
+        "team": "Ferrari",
+        "year": 1977
+    },
+    {
+        "number": 49,
+        "name": "James Hunt",
+        "wins": 6,
+        "team": "McLaren-Ford",
+        "year": 1976
+    },
+    {
+        "number": 50,
+        "name": "Niki Lauda",
+        "wins": 5,
+        "team": "Ferrari",
+        "year": 1975
+    },
+    {
+        "number": 51,
+        "name": "Emerson Fittipaldi",
+        "wins": 3,
+        "team": "McLaren-Ford",
+        "year": 1974
+    },
+    {
+        "number": 52,
+        "name": "Jackie Stewart",
+        "wins": 5,
+        "team": "Tyrrell-Ford",
+        "year": 1973
+    },
+    {
+        "number": 53,
+        "name": "Emerson Fittipaldi",
+        "wins": 5,
+        "team": "Lotus-Ford",
+        "year": 1972
+    },
+    {
+        "number": 54,
+        "name": "Jackie Stewart",
+        "wins": 6,
+        "team": "Tyrrell-Ford",
+        "year": 1971
+    },
+    {
+        "number": 55,
+        "name": "Jochen Rindt",
+        "wins": 5,
+        "team": "Lotus-Ford",
+        "year": 1970
+    },
+    {
+        "number": 56,
+        "name": "Jacky Ickx",
+        "wins": 2,
+        "team": "Brabham-Ford",
+        "year": 1969
+    },
+    {
+        "number": 57,
+        "name": "Graham Hill",
+        "wins": 3,
+        "team": "Lotus-Ford",
+        "year": 1968
+    },
+    {
+        "number": 58,
+        "name": "Denny Hulme",
+        "wins": 2,
+        "team": "Brabham-Repco",
+        "year": 1967
+    },
+    {
+        "number": 59,
+        "name": "Jack Brabham",
+        "wins": 4,
+        "team": "Brabham-Repco",
+        "year": 1966
+    },
+    {
+        "number": 60,
+        "name": "Jim Clark",
+        "wins": 6,
+        "team": "Lotus-Climax",
+        "year": 1965
+    },
+    {
+        "number": 61,
+        "name": "John Surtees",
+        "wins": 2,
+        "team": "Ferrari",
+        "year": 1964
+    },
+    {
+        "number": 62,
+        "name": "Jim Clark",
+        "wins": 7,
+        "team": "Lotus-Climax",
+        "year": 1963
+    },
+    {
+        "number": 63,
+        "name": "Graham Hill",
+        "wins": 4,
+        "team": "BRM",
+        "year": 1962
+    },
+    {
+        "number": 64,
+        "name": "Phil Hill",
+        "wins": 2,
+        "team": "Ferrari",
+        "year": 1961
+    },
+    {
+        "number": 65,
+        "name": "Jack Brabham",
+        "wins": 5,
+        "team": "Cooper-Climax",
+        "year": 1960
+    },
+    {
+        "number": 66,
+        "name": "Jack Brabham",
+        "wins": 2,
+        "team": "Cooper-Climax",
+        "year": 1959
+    },
+    {
+        "number": 67,
+        "name": "Mike Hawthorn",
+        "wins": 1,
+        "team": "Ferrari",
+        "year": 1958
+    },
+    {
+        "number": 68,
+        "name": "Juan Manuel Fangio",
+        "wins": 4,
+        "team": "Maserati",
+        "year": 1957
+    },
+    {
+        "number": 69,
+        "name": "Juan Manuel Fangio",
+        "wins": 3,
+        "team": "Lancia-Ferrari",
+        "year": 1956
+    },
+    {
+        "number": 70,
+        "name": "Juan Manuel Fangio",
+        "wins": 4,
+        "team": "Mercedes-Benz",
+        "year": 1955
+    },
+    {
+        "number": 71,
+        "name": "Juan Manuel Fangio",
+        "wins": 6,
+        "team": "Maserati / Mercedes-Benz",
+        "year": 1954
+    },
+    {
+        "number": 72,
+        "name": "Alberto Ascari",
+        "wins": 5,
+        "team": "Ferrari",
+        "year": 1953
+    },
+    {
+        "number": 73,
+        "name": "Alberto Ascari",
+        "wins": 6,
+        "team": "Ferrari",
+        "year": 1952
+    },
+    {
+        "number": 74,
+        "name": "Juan Manuel Fangio",
+        "wins": 3,
+        "team": "Alfa Romeo",
+        "year": 1951
+    },
+    {
+        "number": 75,
+        "name": "Giuseppe Farina",
+        "wins": 3,
+        "team": "Alfa Romeo",
+        "year": 1950
+    }
+]

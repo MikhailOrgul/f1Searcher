@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Справочник Ф1
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="dt"> 
+            <div class="buttonsListSelect">
+                <button id="driversButton" src="script.js" onclick="summaryDrivers()">
+                    Список чемпионов
+                </button> 
+                <button id="teamsButton" src="script.js" onclick="summaryTeams()">
+                    Список конструкторов   
+                </button>
+            </div> 
+            <table class="chamDriversTable" border="1" id="mainTable">
+                <thead id="driversTableId">
+                </thead>
+                <tbody id="driversTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="allFilterContainer">
+            <img class="f1Logo"src="logof1.png" alt="404">
+            <div class="filterContentInputDrivers" id="driverFilter">
+                <div class="inputAreaFilter" id="nameFilter">
+                    <label class="FirstlevelLabel">
+                        Имя гонщика
+                    </label>
+                    <input class="inputFieldFilter" id="inputNameDriverFilter">
+                </div>
+                <div class="inputAreaFilter" id="comandFilter">
+                    <label class="FirstlevelLabel">
+                        Название команды
+                    </label>
+                    <input class="inputFieldFilter" id="inputComandNameFilter">
+                </div>
+                <div class="inputAreaFilter" id="winsFilter">
+                    <label class="FirstlevelLabel">
+                        Победы за чемпионский сезон
+                    </label>
+                    <label>
+                        От
+                    </label>
+                    <input class="inputFieldFilter" id="inputWinsFilterFrom">
+                    <label>
+                        До
+                    </label>
+                    <input class="inputFieldFilter" id="inputWinsFilterTo">
+                </div>
+                <div class="inputAreaFilter" id="yearFilter">
+                    <label class="FirstlevelLabel">
+                        Год
+                    </label>
+                    <label for="inputYearFilter">
+                        От
+                    </label>
+                    <input class="inputFieldFilter" id="inputYearFilterFrom">
+                    <label for="inputYearFilterTo">
+                        До
+                    </label>
+                    <input class="inputFieldFilter" id="inputYearFilterTo">
+                </div>
+                <div class="divForButtonsFilter">
+                    <button class="buttonFilter" onclick="driverFiler()" id="filterButtonDriver">
+                        Фильтр
+                    </button>
+                    <button class="buttonFilter" id="returnButton">
+                        Назад
+                    </button>
+                </div>
+            </div>
+            
+            
+            
+            <div class="filterContentInputTeams" id="teamsFilter">
+                <div class="inputAreaFilter" id="nameTeamFilter">
+                    <label>
+                        Название
+                    </label>
+                    <input class="inputFieldFilter" id="inputNameTeamFilter">
+                </div>
+                <div class="inputAreaFilter" id="nameFirstDriverTeamFilter">
+                    <label>
+                        Имя первого пилота
+                    </label>
+                    <input class="inputFieldFilter" id="inputFirstDriverTeamFilter">
+                </div>
+                <div class="inputAreaFilter" id="nameSecondDriverTeamFilter">
+                    <label>
+                        Имя второго пилота
+                    </label>
+                    <input class="inputFieldFilter" id="inputSecondDriverTeamFilter">
+                </div>
+                <div class="inputAreaFilter" id="yearTeamFilter">
+                    <label>
+                        Год
+                    </label>
+                    <label for="inputYearTeamFilterFrom">
+                        От
+                    </label>
+                    <input class="inputFieldFilter" id="inputYearTeamFilterFrom">
+                    <label for="inputTeamYearFilterTo">
+                        До
+                    </label>
+                    <input class="inputFieldFilter" id="inputTeamYearFilterTo">
+                </div>
+                <div class="inputAreaFilter" id="ccTeamFilter">
+                    <label>
+                        Количество кубков конструктора
+                    </label>
+                    <label for="inputCountOfCCTeamFilterFrom">
+                        От
+                    </label>
+                    <input class="inputFieldFilter" id="inputCountOfCCTeamFilterFrom">
+                    <label for="inputCountOfCCTeamFilterTo">
+                        До
+                    </label>
+                    <input class="inputFieldFilter" id="inputCountOfCCTeamFilterTo">
+                </div>
+                <div class="divForButtonsFilter">
+                    <button class="buttonFilter" onclick="teamFiler()" id="filterButtonTeam">
+                        Фильтр
+                    </button>
+                    <button class="buttonFilter" id="returnButtonFromTeam">
+                        Назад
+                    </button>
+            
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
